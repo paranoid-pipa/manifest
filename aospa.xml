@@ -3,7 +3,7 @@
 
   <!-- Build -->
   <remove-project name="platform/build_repo" />
-  <project path="build/make" name="AOSPA/android_build" remote="aospa" >
+  <project path="build/make" name="paranoid-pipa/android_build" remote="aospa" >
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
     <linkfile src="core" dest="build/core" />
@@ -23,7 +23,7 @@
   <remove-project name="platform/bootable/deprecated-ota" />
   <project path="bootable/deprecated-ota" name="AOSPA/android_bootable_deprecated-ota" remote="aospa" />
   <remove-project name="platform/bootable/recovery" />
-  <project path="bootable/recovery" name="AOSPA/android_bootable_recovery" remote="aospa" />
+  <project path="bootable/recovery" name="paranoid-pipa/android_bootable_recovery" remote="aospa" />
 
   <!-- Core -->
   <remove-project name="platform/art" />
@@ -94,7 +94,7 @@
   <project path="packages/apps/ParanoidSettings" name="AOSPA/android_packages_apps_ParanoidSettings" remote="aospa" />
   <project path="packages/apps/ParanoidSense" name="AOSPA/android_packages_apps_ParanoidSense" remote="aospa" />
   <project path="packages/apps/ParanoidSystemUI" name="AOSPA/android_packages_apps_Paranoid_SystemUI" remote="aospa" />
-  <project path="packages/resources/devicesettings" name="AOSPA/android_packages_resources_devicesettings" remote="aospa" />
+  <project path="packages/resources/devicesettings" name="paranoid-pipa/android_packages_resources_devicesettings" remote="aospa" />
 
   <!-- Packages -->
   <remove-project name="platform/packages/apps/Launcher3" />
@@ -123,7 +123,7 @@
   <project path="tools/extract-utils" name="AOSPA/android_tools_extract-utils" remote="aospa" />
 
   <!-- Vendor (AOSPA) -->
-  <project path="vendor/aospa" name="AOSPA/android_vendor_aospa" remote="aospa" >
+  <project path="vendor/aospa" name="paranoid-pipa/android_vendor_aospa" remote="aospa" >
     <linkfile src="build.sh" dest="rom-build.sh" />
   </project>
   <project path="vendor/aospa/apps/ParanoidThemePicker" name="AOSPA/vendor_aospa_apps_ParanoidThemePicker" remote="aospa" />
