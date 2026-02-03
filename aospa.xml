@@ -40,7 +40,7 @@
   <project path="device/qcom/qssi" name="AOSPA/android_device_qcom_qssi" remote="aospa" />
   <remove-project name="device/qcom/sepolicy_vndr" />
   <project path="device/qcom/sepolicy_vndr" name="paranoid-pipa/android_device_qcom_sepolicy_vndr" remote="aospa" />
-  <project path="device/qcom/kernelscripts" name="AOSPA/android_kernel_build" remote="aospa" >
+  <project path="device/qcom/kernelscripts" name="paranoid-pipa/android_kernel_build" remote="aospa" >
     <linkfile dest="vendor/qcom/build/tasks/kernel_definitions.mk" src="kernel_definitions.mk"/>
   </project>
 
