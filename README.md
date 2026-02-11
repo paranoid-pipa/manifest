@@ -7,7 +7,7 @@ repo init -u https://github.com/paranoid-pipa/manifest -b vauxite --depth 1
 
 ### 🔄 Sync Sauce ###
 ```
-repo sync -c -j$(nproc) --force-sync --no-clone-bundle --no-tags --optimized-fetch --prune
+repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags --optimized-fetch --prune
 ```
 
 ### 🍳 Cook AOSPA ###
