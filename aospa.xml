@@ -66,7 +66,7 @@
   <remove-project name="platform/frameworks/base" />
   <project path="frameworks/base" name="AOSPA/android_frameworks_base" remote="aospa" />
   <remove-project name="platform/frameworks/native" />
-  <project path="frameworks/native" name="AOSPA/android_frameworks_native" remote="aospa" />
+  <project path="frameworks/native" name="paranoid-pipa/android_frameworks_native" remote="aospa" />
 
   <!-- Hardware -->
   <remove-project name="platform/hardware/interfaces" />
