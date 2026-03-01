@@ -48,8 +48,12 @@
   <remote  name="gitlab"
            fetch="https://gitlab.com" />
 
+  <remote  name="codeberg"
+           fetch="https://codeberg.org" />
+
   <include name="aosp.xml"/>
   <include name="aospa.xml"/>
   <include name="obsolete.xml"/>
-
+  <include name="pipa.xml"/>
+  
 </manifest>
