@@ -64,6 +64,7 @@
 
   <!-- Hardware (Lineage) -->
   <project path="hardware/lineage/compat" name="AOSPA/android_hardware_lineage_compat" remote="aospa" />
+  <project path="hardware/lineage/interfaces" name="paranoid-pipa/android_hardware_lineage_interfaces" remote="aospa" />
 
   <!-- Kernel -->
   <remove-project name="kernel/configs" />
