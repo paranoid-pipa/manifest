@@ -55,5 +55,14 @@
   <include name="aospa.xml"/>
   <include name="obsolete.xml"/>
   <include name="pipa.xml"/>
-  
+
+  <remote  name="los"
+           fetch="https://github.com/LineageOS"
+           revision="lineage-23.0"/>
+
+  <remote  name="mod"
+  fetch=".."
+  revision="mod"/>  
+
 </manifest>
+
