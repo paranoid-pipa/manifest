@@ -61,7 +61,7 @@
            revision="lineage-23.0"/>
 
   <remote  name="mod"
-  fetch=".."
+  fetch="https://github.com/paranoid-pipa"
   revision="mod"/>  
 
 </manifest>
