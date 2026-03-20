@@ -123,7 +123,7 @@
   <project path="vendor/aospa/translations" name="AOSPA/android_vendor_aospa_translations" remote="aospa" />
   <project path="vendor/google/gms" name="android_vendor_google_gms" remote="blobs-gitlab" clone-depth="1" />
   <project path="vendor/google/pixel" name="android_vendor_google_pixel" remote="blobs" clone-depth="1" />
-  <project path="vendor/qcom/common" name="paranoid-pipa/proprietary_vendor_qcom_common" remote="aospa" />
+  <project path="vendor/qcom/common" name="AOSPA-Mod/proprietary_vendor_qcom_common" remote="github" revision="beryl" />
   <project path="vendor/qcom/sdclang" name="proprietary_vendor_qcom_sdclang" remote="blobs" revision="disabled" />
 
   <!-- Vendor (QCOM QSSI) -->
