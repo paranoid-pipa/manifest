@@ -31,7 +31,8 @@
   <project path="hardware/qcom/sm8150/gps" name="android_hardware_qcom_sm8150_gps" groups="qcom,qcom_sm8150" remote="los" />
 
   <!-- CodeLinaro additions -->
-  <project path="hardware/qcom-caf/common" name="AOSPA-Mod/android_hardware_qcom-caf_common" groups="qcom" remote="github" revision="lineage-23.0" >
+  <project path="device/qcom/common" name="paranoid-pipa/android_device_qcom_common" groups="qcom" remote="github" revision="mod" >
+    <linkfile dest="vendor/qcom/build/tasks/generate_extra_images.mk" src="generate_extra_images.mk"/>
     <!-- add guard for AOSP hardware/qcom dir -->
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
     <!-- add guards for CAF repositories -->

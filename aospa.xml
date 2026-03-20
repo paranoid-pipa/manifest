@@ -27,9 +27,6 @@
 
   <!-- Device -->
   <remove-project name="device/qcom/common" />
-  <project path="device/qcom/common" name="android_device_qcom_common" remote="mod" >
-    <linkfile dest="vendor/qcom/build/tasks/generate_extra_images.mk" src="generate_extra_images.mk"/>
-  </project>
   <remove-project name="device/qcom/sepolicy_vndr" />
   <project path="device/qcom/sepolicy_vndr" name="paranoid-pipa/android_device_qcom_sepolicy_vndr" remote="aospa" />
 
