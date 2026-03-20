@@ -64,5 +64,7 @@
   fetch="https://github.com/paranoid-pipa"
   revision="mod"/>  
 
+  <include name="mod.xml"/>
+  
 </manifest>
 
