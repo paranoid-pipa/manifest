@@ -48,8 +48,6 @@
   <!-- Frameworks -->
   <remove-project name="platform/frameworks/av" />
   <project path="frameworks/av" name="AOSPA/android_frameworks_av" remote="aospa" />
-  <remove-project name="platform/frameworks/base" />
-  <project path="frameworks/base" name="paranoid-pipa/android_frameworks_base" remote="aospa" />
   <remove-project name="platform/frameworks/native" />
   <project path="frameworks/native" name="paranoid-pipa/android_frameworks_native" remote="aospa" />
 
@@ -78,20 +76,9 @@
 
   <!-- Packages (Custom) -->
   <project path="packages/apps/Aperture" name="LineageOS/android_packages_apps_Aperture" revision="lineage-23.0" remote="github" />
-  <project path="packages/apps/ParanoidDoze" name="AOSPA/android_packages_apps_ParanoidDoze" remote="aospa" />
-  <project path="packages/apps/ParanoidPapers" name="AOSPA/android_packages_apps_ParanoidPapers" remote="aospa" />
-  <project path="packages/apps/ParanoidSettings" name="AOSPA/android_packages_apps_ParanoidSettings" remote="aospa" />
-  <project path="packages/apps/ParanoidSense" name="AOSPA/android_packages_apps_ParanoidSense" remote="aospa" />
-  <project path="packages/apps/ParanoidSystemUI" name="AOSPA/android_packages_apps_Paranoid_SystemUI" remote="aospa" />
   <project path="packages/resources/devicesettings" name="paranoid-pipa/android_packages_resources_devicesettings" remote="aospa" />
 
   <!-- Packages -->
-  <remove-project name="platform/packages/apps/Launcher3" />
-  <project path="packages/apps/Launcher3" name="paranoid-pipa/android_packages_apps_Launcher3" remote="aospa" />
-  <remove-project name="platform/packages/apps/Settings" />
-  <project path="packages/apps/Settings" name="paranoid-pipa/android_packages_apps_Settings" remote="aospa" />
-  <remove-project name="platform/packages/apps/ThemePicker" />
-  <project path="packages/apps/ThemePicker" name="AOSPA/android_packages_apps_ThemePicker" remote="aospa" />
   <remove-project name="platform/packages/modules/Bluetooth" />
   <project path="packages/modules/Bluetooth" name="AOSPA/android_packages_modules_Bluetooth" remote="aospa" />
   <remove-project name="platform/packages/modules/Nfc" />
@@ -115,10 +102,6 @@
   <project path="vendor/aospa" name="paranoid-pipa/android_vendor_aospa" remote="aospa" revision="staging" >
     <linkfile src="build.sh" dest="rom-build.sh" />
   </project>
-  <project path="vendor/aospa/prebuilt" name="android_vendor_aospa_prebuilt" remote="blobs-gitlab" />
-  <project path="vendor/aospa/translations" name="AOSPA/android_vendor_aospa_translations" remote="aospa" />
-  <project path="vendor/google/gms" name="android_vendor_google_gms" remote="blobs-gitlab" clone-depth="1" />
-  <project path="vendor/google/pixel" name="android_vendor_google_pixel" remote="blobs" clone-depth="1" />
   <project path="vendor/qcom/common" name="paranoid-pipa/proprietary_vendor_qcom_common" remote="aospa" />
   <project path="vendor/qcom/sdclang" name="proprietary_vendor_qcom_sdclang" remote="blobs" revision="disabled" />
 
