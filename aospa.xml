@@ -61,7 +61,7 @@
 
   <!-- Hardware (Lineage) -->
   <project path="hardware/lineage/compat" name="AOSPA/android_hardware_lineage_compat" remote="aospa" />
-  <project path="hardware/lineage/interfaces" name="paranoid-pipa/android_hardware_lineage_interfaces" remote="aospa" />
+  <project path="hardware/lineage/interfaces" name="paranoid-pipa/android_hardware_lineage_interfaces" remote="aospa" revision="staging" />
 
   <!-- Inline kernel build -->
   <project path="prebuilts/clang/kernel/linux-x86/clang-r416183b" name="LineageOS/android_prebuilts_clang_kernel_linux-x86_clang-r416183b" clone-depth="1" remote="github" revision="lineage-20.0" />
