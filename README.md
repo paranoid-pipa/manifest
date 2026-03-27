@@ -2,7 +2,7 @@
 
 ### 📥 Initialize Paranoid Android ###
 ```
-repo init -u https://github.com/paranoid-pipa/manifest -b beryl --depth 1
+repo init -u https://github.com/paranoid-pipa/manifest -b staging --depth 1
 ```
 
 ### 🔄 Sync Sauce ###
