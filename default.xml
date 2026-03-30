@@ -54,6 +54,6 @@
   <include name="aosp.xml"/>
   <include name="aospa.xml"/>
   <include name="obsolete.xml"/>
-  <include name="pipa.xml"/>
+  <include name="lineage.xml"/>
   
 </manifest>
